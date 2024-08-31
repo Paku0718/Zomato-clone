@@ -28,6 +28,7 @@ Feature Home Page
   //what are apis? use postman? request,response,pathparameter,queryparameter,body of request,reverseStringfyBody of request?
   
   create a get api to return -- all resturants  
+  create a get api to reutrn -- a resutrant
   create a post api to send review -- for a resturant
   create a get api to return all review -- for a resturant
 
