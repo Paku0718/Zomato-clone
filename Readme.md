@@ -10,7 +10,6 @@ Feature Home Page
   -List of resturant ,
           ->resturant menu or dishes , images 
 
-
 ---------------------------------------------------
  (2 days )
  -Navbar,
