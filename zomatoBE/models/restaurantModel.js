@@ -8,11 +8,10 @@ const restaurantSchema = new mongoose.Schema({
   menu: [
     {
       item: { type: String, required: true },
-      price: { type: Number, required: true },
-    },
+      price: { type: Number, required: true }
+    }
   ],
+  imageUrl: { type: String }  // Field to store image URL
 });
 
-const Restaurant = mongoose.model('Restaurant', restaurantSchema);
-
-module.exports = Restaurant;
+module.exports = mongoose.model('Restaurant', restaurantSchema);

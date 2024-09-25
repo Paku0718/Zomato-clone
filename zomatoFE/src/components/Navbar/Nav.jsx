@@ -10,6 +10,7 @@ const NavLinks = ({ onLoginClick, onSignupClick }) => {
       <NavLink to="/">Home</NavLink>
       <NavLink to="/about">About</NavLink>
       <NavLink to="/menu">Menu</NavLink>
+      <NavLink to="/restaurantform">Add Restaurants</NavLink>
       <button onClick={onLoginClick}>Login</button>
       <button onClick={onSignupClick}>Sign Up</button>
     </>
